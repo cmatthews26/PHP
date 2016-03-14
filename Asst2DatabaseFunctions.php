@@ -98,14 +98,8 @@ function CloseConnection()
 	$Close = mysqli_close($Connect);
 
 	if(!$Close)
-		echo "Connection NOT closed HAHAHA";
+		echo "Connection NOT closed";
 
 }
 
-/*
-$arr = array(1,2,3);
-list($a, $b, $c) = $arr;
-
-echo "$b";
-*/
 ?>
